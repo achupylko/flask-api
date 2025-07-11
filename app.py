@@ -3,7 +3,7 @@ from flask_cors import CORS
 
 
 app = Flask(__name__)
-CORS(app, origins=["https://achupylko.github.io/portfolio-site/"])
+CORS(app, origins=["https://achupylko.github.io"])
 
 @app.route("/api/contact", methods=["POST"])
 def contact():
